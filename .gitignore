@@ -1,14 +1,15 @@
-# Environments
+# Python environments
+.venv/
 venv/
 
-# Python Cache
+# Python cache
 __pycache__/
 *.pyc
 
-# Data
-data/db/*.db
-data/db/*.sqlite
-data/artifact/*.joblib
+# Data artifacts
+data/database/*.db
+data/database/*.sqlite
+data/artifacts/*.joblib
 
 # IDEs
 .vscode/
